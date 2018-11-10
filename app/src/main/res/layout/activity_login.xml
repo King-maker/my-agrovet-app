@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="58dp"
+        android:text="@string/username_text"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pswd"
+        android:layout_width="121dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginTop="123dp"
+        android:text="@string/pswd"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/plaintext_username"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/name"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="-16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/text_pswd"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pswd"
+        android:layout_alignStart="@+id/plaintext_username"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/loginBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="171dp"
+        android:text="@string/loginBtn2" />
+
+    <TextView
+        android:id="@+id/attempts"
+        android:layout_width="101dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="214dp"
+        android:text="Attempts :"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:text=" Attempts :" />
+
+    <TextView
+        android:id="@+id/attempt_count"
+        android:layout_width="121dp"
+        android:layout_height="29dp"
+        android:layout_alignBaseline="@+id/attempts"
+        android:layout_alignEnd="@+id/plaintext_username"
+        android:textColor="@android:color/holo_green_dark" />
+
+</RelativeLayout>

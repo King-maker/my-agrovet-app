@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">MyAgrovet</string>
+    <string name="username_text">Username</string>
+    <string name="pswd">Password</string>
+    <string name="loginBtn2">Login</string>
+    <string name="attempts_textview">TextView</string>
+
+
+    <string-array name="Agrovets">
+        <item>New Life Agrovet</item>
+        <item>Best Chem</item>
+        <item>No chance</item>
+        <item>Better Health agrovet</item>
+        <item>More Life chemicals and suppliers</item>
+        <item>mifugo agrovets</item>
+
+    </string-array>
+
+    <string-array name="contact">
+        <item>+254722456021</item>
+        <item>+254712345680</item>
+        <item>+254732165489</item>
+        <item>+254701278963</item>
+        <item>+254702548697</item>
+        <item>+254765748901</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Vam plaza,first floor</item>
+        <item>Dykaan building,4th floor</item>
+        <item>Aggie Plaza,ground floor</item>
+        <item>ACK building, 1st floor</item>
+        <item>Murutani house,ground floor</item>
+        <item>Family complex,ground floor</item>
+    </string-array>
+
+    <string-array name="AgrovetsNbi">
+        <item>Jumbo Agrovet</item>
+        <item>Happy Hour chemicals</item>
+        <item>Omolo and sons</item>
+        <item>Daily Dose Agrovet</item>
+        <item>Celebration agrovet</item>
+        <item>Maple suppliers</item>
+
+    </string-array>
+
+    <string-array name="contactNbi">
+        <item>+25472287900</item>
+        <item>+25471453271</item>
+        <item>+25788584205</item>
+        <item>+25470127890</item>
+        <item>+25470254878</item>
+        <item>+254765748908</item>
+    </string-array>
+
+    <string-array name="locationNbi">
+        <item>KPCU building, room 54</item>
+        <item>Wakulima house, room 45</item>
+        <item>Cinema plaza, room 21</item>
+        <item>Kencom building, room 30</item>
+        <item>OTC building, room 89</item>
+        <item>Mumwe building, room 12</item>
+    </string-array>
+
+    <string-array name="AgrovetsEld">
+        <item>Nyaru Agrovet</item>
+        <item>Saroyot Agrovet</item>
+        <item>Naiberi agrovet</item>
+        <item>Ndalat Agrovet</item>
+        <item>Chebet Sons agrovet</item>
+        <item>Koppert Distributors</item>
+
+    </string-array>
+
+    <string-array name="contactEld">
+        <item>+254710277777</item>
+        <item>+254714532719</item>
+        <item>+254788584205</item>
+        <item>+254701277909</item>
+        <item>+254702565464</item>
+        <item>+254702833863</item>
+    </string-array>
+
+    <string-array name="locationEld">
+        <item>Plains view building, room 4</item>
+        <item> Opposite Equity bank</item>
+        <item>Naiberi Centre </item>
+        <item>Sizzlars House, 1st floor</item>
+        <item>Grand Pri building, gr floor</item>
+        <item>Chepkorio House, 3rd floor</item>
+    </string-array>
+
+    <string-array name="AgrovetsThk">
+        <item>Kilimo Agrovet</item>
+        <item>Waki Agrovet</item>
+        <item>Rispet Agrovet and Animal Feed</item>
+        <item>Athi Agrovet Suppliers</item>
+        <item>Agrovet Vetagro</item>
+        <item>Chania farmers Agrovet</item>
+
+    </string-array>
+
+    <string-array name="contactThk">
+        <item>+254710769990</item>
+        <item>+254908953215</item>
+        <item>+254784566958</item>
+        <item>+254701745129</item>
+        <item>+254721345888</item>
+        <item>+254717238168</item>
+    </string-array>
+
+    <string-array name="locationThk">
+        <item>Agrochem house, shop 477</item>
+        <item> Westend Building, room 34</item>
+        <item>Workshop Rd</item>
+        <item>Thika mega complex, shop 433</item>
+        <item>Gitama house, shop 24</item>
+        <item>Ushirika house, shop 45</item>
+    </string-array>
+
+</resources>
