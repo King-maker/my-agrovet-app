@@ -1,6 +1,6 @@
 # my-agrovet-app
 An android app to help farmers to find agrovets in their towns
-<img src ="public/images/agvt.png">
+<img src ="public/images/agvt1.png">
 
 <h3> how to use</h3>
  <ol>
